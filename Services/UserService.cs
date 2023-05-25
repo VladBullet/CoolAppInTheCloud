@@ -7,55 +7,98 @@ namespace CoolAppInTheCloud.Services
 {
     public interface IUserService
     {
-        Task<User> GetUserById(int id);
-        Task<User> GetUserByUsername(string username);
-        Task<IEnumerable<User>> GetAllUsers();
-        Task CreateUser(User user);
-        Task UpdateUser(User user);
-        Task DeleteUser(User user);
+        User GetUserById(int id);
+        User GetUserByUsername(string username);
+        IEnumerable<User> GetAllUsers();
+        bool CreateUser(User user);
+        bool UpdateUser(User user);
+        bool DeleteUser(User user);
     }
 
     public class UserService : IUserService
     {
         private readonly CoolAppInTheCloudDbContext _dbContext;
+        private readonly MockDatabase _db = MockDatabase.Instance;
 
         public UserService(CoolAppInTheCloudDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public async Task<User> GetUserById(int id)
+        public User GetUserById(int id)
         {
-            return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
+            return _db.Users?.FirstOrDefault(u => u.Id == id);
         }
 
-        public async Task<User> GetUserByUsername(string username)
+        public User GetUserByUsername(string username)
         {
-            return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Username == username);
+            return _db.Users?.FirstOrDefault(u => u.Username == username);
         }
 
-        public async Task<IEnumerable<User>> GetAllUsers()
+        public IEnumerable<User> GetAllUsers()
         {
-            return await _dbContext.Users.AsNoTracking().ToListAsync();
+            return _dbContext.Users;
         }
 
-        public async Task CreateUser(User user)
+        public bool CreateUser(User user)
         {
-            user.Password = user.Password.ToMd5();
-            _dbContext.Users.Add(user);
-            await _dbContext.SaveChangesAsync();
+            try
+            {
+                if (_db.Users.Any(x => x.Id == user.Id))
+                {
+                    Console.WriteLine("User already exists!");
+                    return false;
+                }
+                user.Password = user.Password.ToMd5();
+                _db.Users.Add(user);
+                // await _db.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
         }
 
-        public async Task UpdateUser(User user)
+        public bool UpdateUser(User user)
         {
-            _dbContext.Users.Update(user);
-            await _dbContext.SaveChangesAsync();
+            try
+            {
+                if (GetUserById(user.Id).Password != user.Password)
+                {
+                    user.Password = user.Password.ToMd5(); // make sure the password gets hashed
+                }
+
+                var dbUser = GetUserById(user.Id);
+                _db.Users.Remove(dbUser); // remove old user
+                _db.Users.Add(user); // add new user
+                // await _db.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
         }
 
-        public async Task DeleteUser(User user)
+        public bool DeleteUser(User user)
         {
-            _dbContext.Users.Remove(user);
-            await _dbContext.SaveChangesAsync();
+            try
+            {
+                _db.Users.Remove(user);
+                return true;
+                //await _db.SaveChangesAsync();
+            }
+            catch (Exception e)
+            {
+                // TODO: add logging (ILogger)
+                Console.WriteLine(e.Message);
+                return false;
+            }
+
         }
     }
 }

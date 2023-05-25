@@ -22,7 +22,7 @@ public class UserController : ControllerBase
     [HttpGet("getUserById/{id}")]
     public async Task<IActionResult> GetUserById(int id)
     {
-        var user = await _userService.GetUserById(id);
+        var user = _userService.GetUserById(id);
         if (user == null)
         {
             return NotFound();
@@ -34,7 +34,7 @@ public class UserController : ControllerBase
     [HttpGet("getUserByUsername/{username}")]
     public async Task<IActionResult> GetUserByUsername(string username)
     {
-        var user = await _userService.GetUserByUsername(username);
+        var user = _userService.GetUserByUsername(username);
         if (user == null)
         {
             return NotFound();
@@ -46,14 +46,14 @@ public class UserController : ControllerBase
     [HttpGet("getAllUsers")]
     public async Task<IActionResult> GetAllUsers()
     {
-        var users = await _userService.GetAllUsers();
+        var users = _userService.GetAllUsers();
         return Ok(users);
     }
 
     [HttpPost("createUser")]
     public async Task<IActionResult> CreateUser(User user)
     {
-        await _userService.CreateUser(user);
+        _userService.CreateUser(user);
         return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
     }
 
@@ -66,25 +66,25 @@ public class UserController : ControllerBase
         }
 
         // make sure the password is hashed on update
-        if ((await _userService.GetUserById(user.Id)).Password != user.Password) 
+        if ((_userService.GetUserById(user.Id)).Password != user.Password)
         {
             user.Password = user.Password.ToMd5();
         }
 
-        await _userService.UpdateUser(user);
+        _userService.UpdateUser(user);
         return NoContent();
     }
 
     [HttpDelete("deleteUser/{id}")]
     public async Task<IActionResult> DeleteUser(int id)
     {
-        var user = await _userService.GetUserById(id);
+        var user = _userService.GetUserById(id);
         if (user == null)
         {
             return NotFound();
         }
 
-        await _userService.DeleteUser(user);
+        _userService.DeleteUser(user);
         return NoContent();
     }
 }
