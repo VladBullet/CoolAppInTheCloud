@@ -1,0 +1,325 @@
+﻿Chloe Miller, female, 26, Sydney, Australia, graphic designer, Sushi, 8, brown, brown, Michael Kors, Samsung, Margarita, Tacos, No, Yes, Cup
+ 
+
+Dylan Price, male, 34, San Francisco, USA, photographer, Pizza, 11, blonde, blonde, blue, Rolex, Apple, Gin and Tonic, Pasta, Yes, No, Glass
+ 
+
+Maya Patel, female, 22, Mumbai, India, software engineer, Indian Curry, 7, black, black, brown, Swatch, OnePlus, Chai, Biryani, No, Yes, Cup
+ 
+
+Max Collins, male, 29, London, UK, musician, Fish and Chips, 10, red, blonde, green, Casio, Nokia, Beer, Roast Beef, Yes, Yes, Glass
+ 
+
+Lily Park, female, 31, Seoul, South Korea, teacher, Kimchi, 6, brown, black, brown, Fossil, LG, Soju, Bibimbap, No, Yes, Cup
+ 
+
+Adam Jones, male, 25, Toronto, Canada, artist, Poutine, 9, black, black, hazel, Timex, Google Pixel, Whiskey, Burgers, No, Yes, Glass
+ 
+
+Sofia Rodriguez, female, 28, Madrid, Spain, fashion designer, Paella, 7, brown, brown, green, Cartier, Samsung, Red Wine, Tapas, Yes, No, Cup
+ 
+
+Noah Lee, male, 27, Hong Kong, China, banker, Dim Sum, 11, black, black, brown, Omega, Apple, Scotch, Noodles, Yes, Yes, Glass
+ 
+
+Ava Taylor, female, 23, Los Angeles, USA, actress, Kale Salad, 8, blonde, blonde, blue, Tag Heuer, iPhone, Champagne, Sushi, No, Yes, Cup
+ 
+
+Jack Chen, male, 30, Taipei, Taiwan, entrepreneur, Bubble Tea, 9, black, black, brown, Hublot, Samsung, Mojito, Hotpot, No, Yes, Glass
+ 
+
+Emily Kim, female, 24, Seoul, South Korea, graphic designer, Bibimbap, 7, black, black, brown, Timex, Samsung, Iced Coffee, Ramen, No, Yes, Glass
+ 
+
+Ethan Baker, male, 31, Los Angeles, USA, writer, Burgers, 11, brown, brown, blue, Rolex, iPhone, Mojito, Tacos, Yes, No, Cup
+ 
+
+Isabella Chen, female, 28, Shanghai, China, architect, Hot Pot, 7, black, black, brown, Cartier, Huawei, Red Wine, Dumplings, Yes, Yes, Glass
+ 
+
+Gabriel Flores, male, 27, Sao Paulo, Brazil, musician, Feijoada, 9, black, black, brown, Casio, Xiaomi, Caipirinha, Churrasco, No, Yes, Cup
+ 
+
+Ava Ramirez, female, 26, Mexico City, Mexico, journalist, Tacos, 8, brown, brown, green, Swatch, Samsung, Margarita, Quesadillas, No, Yes, Glass
+ 
+
+Ryan Wong, male, 29, Singapore, entrepreneur, Laksa, 10, black, black, brown, Omega, Google Pixel, Iced Tea, Chicken Rice, No, Yes, Cup
+ 
+
+Olivia Davis, female, 30, Sydney, Australia, photographer, Sushi, 8, blonde, blonde, blue, Tag Heuer, Apple, Rosé, Salmon, Yes, No, Glass
+ 
+
+Ethan Kim, male, 25, Seoul, South Korea, software engineer, Korean Fried Chicken, 11, black, black, brown, Timex, Samsung, Iced Americano, Kimchi Stew, No, Yes, Cup
+ 
+
+Zoe Park, female, 27, Busan, South Korea, marketer, Bulgogi, 7, brown, black, brown, Casio, LG, Soju, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+David Chen, male, 32, Taipei, Taiwan, architect, Beef Noodle Soup, 9, black, black, brown, Omega, Apple, Whiskey Sour, Dumplings, No, Yes, Cup
+ 
+
+Julia Patel, female, 23, Mumbai, India, fashion designer, Butter Chicken, 7, black, black, brown, Fossil, OnePlus, Lassi, Naan, No, Yes, Glass
+ 
+
+James Lee, male, 30, Seoul, South Korea, artist, Japchae, 10, brown, black, brown, Timex, Samsung, Beer, Bibimbap, No, Yes, Cup
+ 
+
+Emma Tan, female, 28, Beijing, China, consultant, Peking Duck, 8, brown, black, brown, Cartier, Huawei, Iced Lemon Tea, Hot Pot, Yes, No, Glass
+ 
+
+Alexander Wang, male, 29, Shanghai, China, banker, Xiaolongbao, 9, black, black, brown, Hublot, Xiaomi, Baijiu, Fried Rice, No, Yes, Cup
+ 
+
+Sophia Kim, female, 25, Seoul, South Korea, fashion designer, Bibimbap, 7, black, black, brown, Timex, Samsung, Green Tea, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Noah Chen, male, 33, Hong Kong, China, entrepreneur, Dim Sum, 11, black, black, brown, Patek Philippe, iPhone, Long Island Iced Tea, BBQ Pork Buns, Yes, Yes, Glass
+ 
+
+Isabelle Wong, female, 27, Singapore, writer, Laksa, 8, brown, black, brown, Swatch, Google Pixel, Iced Latte, Chicken Rice, No, Yes, Cup
+ 
+
+Dylan Kim, other, 26, Seoul, South Korea, filmmaker, Ramen, 10, black, black, brown, Casio, LG, Soju, Japchae, No, Yes, Glass
+ 
+
+Olivia Lee, female, 31, Taipei, Taiwan, lawyer, Braised Pork Rice, 8, black, black, brown, Tissot, Samsung, Mojito, Dumplings, Yes, Yes, Cup
+ 
+
+Ethan Chen, male, 28, Shanghai, China, software engineer, Xiaolongbao, 9, black, black, brown, Tag Heuer, Huawei, Iced Tea, Fried Rice, No, Yes, Glass
+ 
+
+Grace Park, female, 25, Seoul, South Korea, marketer, Korean Fried Chicken, 7, brown, black, brown, Casio, Samsung, Soju, Kimchi Stew, No, Yes, Cup
+ 
+
+Michael Chen, male, 29, Taipei, Taiwan, artist, Beef Noodle Soup, 10, black, black, brown, Omega, Apple, Whiskey, Dumplings, Yes, Yes, Glass
+ 
+
+Samantha Kim, female, 27, Los Angeles, USA, actress, Avocado Toast, 8, blonde, blonde, blue, Rolex, iPhone, Rosé, Tacos, No, Yes, Cup
+ 
+
+William Wong, male, 30, Singapore, banker, Char Kway Teow, 11, black, black, brown, Hublot, Xiaomi, Scotch, Laksa, No, Yes, Glass
+ 
+
+Sarah Lee, female, 28, Seoul, South Korea, fashion designer, Bibimbap, 7, black, black, brown, Timex, Samsung, Iced Americano, Kimchi Fried Rice, No, Yes, Cup
+ 
+
+Alexander Kim, male, 32, Seoul, South Korea, consultant, Korean Fried Chicken, 10, brown, black, brown, Patek Philippe, LG, Soju, Tteokbokki, No, Yes, Glass
+ 
+
+Chloe Lee, female, 29, Busan, South Korea, marketer, Bulgogi, 7, brown, black, brown, Casio, LG, Soju, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Ethan Kim, male, 26, Seoul, South Korea, chef, Samgyeopsal, 10, black, black, brown, Tissot, Samsung, Beer, Jjajangmyeon, No, Yes, Cup
+ 
+
+Ava Kim, female, 23, Seoul, South Korea, student, Tteokbokki, 7, black, black, brown, Fossil, LG, Iced Americano, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Dylan Lee, male, 27, Seoul, South Korea, entrepreneur, Japchae, 11, black, black, brown, Rolex, iPhone, Whiskey, Fried Chicken, No, Yes
+ 
+
+Maria Santos, identifies as female, 29, Barcelona, Spain, architect, Paella, 8, brown, brown, brown, Tag Heuer, Samsung, Sangria, Tacos, No, Yes, Glass
+ 
+
+Alessandro Rossi, identifies as male, 32, Rome, Italy, musician, Pasta Carbonara, 10, black, black, brown, Rolex, iPhone, Limoncello, Pizza, No, Yes, Cup
+ 
+
+Emily Nguyen, identifies as female, 27, Hanoi, Vietnam, engineer, Pho, 7, black, black, brown, Casio, Samsung, Iced Coffee, Banh Mi, No, Yes, Glass
+ 
+
+Lucas Li, identifies as male, 30, Shanghai, China, entrepreneur, Xiaolongbao, 9, black, black, brown, Omega, Apple, Bubble Tea, Dumplings, No, Yes, Cup
+ 
+
+Sofia Müller, identifies as female, 28, Berlin, Germany, fashion designer, Currywurst, 8, blonde, blonde, blue, Michael Kors, iPhone, Aperol Spritz, Ramen, Yes, No, Glass
+ 
+
+Diego Silva, identifies as male, 31, Rio de Janeiro, Brazil, photographer, Feijoada, 11, black, black, brown, Swatch, Samsung, Caipirinha, Coxinha, Yes, Yes, Cup
+ 
+
+Olivia Kim, identifies as female, 25, Seoul, South Korea, marketer, Kimchi, 7, black, black, brown, Fossil, Samsung, Soju, Bibimbap, Yes, Yes, Glass
+ 
+
+Hugo Gonzalez, identifies as male, 27, Madrid, Spain, writer, Tortilla Española, 9, brown, brown, brown, Casio, Huawei, Sangria, Paella, Yes, Yes, Cup
+ 
+
+Isabella Wang, identifies as female, 29, Vancouver, Canada, artist, Poutine, 8, black, black, brown, Timex, iPhone, Maple Syrup, Sushi, No, Yes, Glass
+ 
+
+Luca Petrov, identifies as male, 30, Moscow, Russia, engineer, Borscht, 10, black, black, brown, Patek Philippe, Samsung, Vodka, Pelmeni, Yes, No, Cup
+ 
+
+Maya Johnson, identifies as female, 26, New York City, USA, entrepreneur, Hamburger, 7, brown, brown, blue, Rolex, iPhone, Margarita, Pizza, No, Yes, Glass
+ 
+
+Rafael Costa, identifies as male, 32, Lisbon, Portugal, lawyer, Bacalhau à Brás, 9, black, black, brown, Hublot, Samsung, Port Wine, Pastel de Nata, Yes, No, Cup
+ 
+
+Layla Khan, identifies as female, 27, Mumbai, India, architect, Biryani, 8, black, black, brown, Tag Heuer, OnePlus, Chai, Samosa, No, Yes, Cup
+ 
+
+Hugo Kim, identifies as male, 29, Seoul, South Korea, musician, Bibimbap, 10, black, black, brown, Casio, Samsung, Soju, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Andrei Popescu, identifies as male, 32, Bucharest, Romania, engineer, Sarmale, 9, black, black, brown, Swatch, Samsung, Palinka, Mici, No, Yes, Cup
+ 
+
+Elena Radu, identifies as female, 28, Cluj-Napoca, Romania, graphic designer, Mămăligă, 7, brown, brown, green, Casio, iPhone, Vin Fiert, Ciorbă de Burtă, Yes, No, Cup
+ 
+
+Adrian Ionescu, identifies as male, 30, Timișoara, Romania, writer, Mici, 10, brown, brown, blue, Rolex, OnePlus, Tuică, Papanași, No, Yes, Glass
+ 
+
+Ana Popa, identifies as female, 26, Iași, Romania, photographer, Papanasi, 8, brown, brown, brown, Tissot, Huawei, Călătoria Lupului, Ciorbă de Perișoare, Yes, Yes, Glass
+ 
+
+Gabriel Andreescu, identifies as male, 29, Sibiu, Romania, musician, Mămăligă cu Brânză, 9, black, black, brown, Timex, Samsung, Unirea, Ciorbă de Fasole, No, Yes, Cup
+ 
+
+Elena Dumitru, identifies as female, 27, Cluj-Napoca, Romania, teacher, Sarmale, 7, brown, brown, green, Fossil, LG, Ciuc Premium, Cozonac, Yes, No, Cup
+ 
+
+Mihai Radulescu, identifies as male, 33, Bucharest, Romania, artist, Mici, 10, black, black, brown, Omega, Xiaomi, Rachie, Mititei, No, Yes, Glass
+ 
+
+Gabriela Petrescu, identifies as female, 29, Timișoara, Romania, fashion designer, Zacuscă, 8, blonde, blonde, blue, Michael Kors, iPhone, Limonadă, Ciorbă de Perișoare, Yes, Yes, Glass
+ 
+
+Florin Dragomir, identifies as male, 31, Cluj-Napoca, Romania, entrepreneur, Mămăligă cu Smântână, 9, brown, brown, brown, Hublot, Samsung, Palinca, Mici, No, Yes, Cup
+ 
+
+Ioana Stanescu, identifies as female, 28, Bucharest, Romania, architect, Ciorbă de Burtă, 7, black, black, brown, Casio, Huawei, Vin Fiert, Sarmale, Yes, No, Cup
+ 
+
+Alexandru Preda, identifies as male, 26, Iași, Romania, engineer, Ciorbă de Perișoare, 10, brown, brown, green, Patek Philippe, Apple, Ursus, Mămăligă cu Brânză, No, Yes, Glass
+ 
+
+Andreea Iliescu, identifies as female, 29, Timișoara, Romania, writer, Mici, 8, brown, brown, blue, Fossil, Samsung, Tuică, Ciorbă de Fasole, No, Yes, Cup
+ 
+
+Lukas Müller, identifies as male, 32, Berlin, Germany, architect, Wiener Schnitzel, 9, brown, brown, blue, Rolex, Samsung, Weißbier, Sauerkraut, Yes, Yes, Glass
+ 
+
+Sophia Wagner, identifies as female, 28, Munich, Germany, graphic designer, Spätzle, 7, blonde, blonde, green, Swatch, Apple, Apfelschorle, Rouladen, Yes, No, Cup
+ 
+
+Maximilian Schmidt, identifies as male, 30, Hamburg, Germany, writer, Currywurst, 10, black, black, brown, Tissot, Huawei, Glühwein, Bratwurst, No, Yes, Glass
+ 
+
+Emma Fischer, identifies as female, 26, Cologne, Germany, photographer, Schwarzwälder Kirschtorte, 8, brown, brown, blue, Casio, Samsung, Riesling, Bretzel, Yes, Yes, Glass
+ 
+
+Jonas Schulz, identifies as male, 29, Frankfurt, Germany, musician, Brezel, 9, black, black, brown, Omega, Google Pixel, Weizenbier, Sauerkraut, No, Yes, Cup
+ 
+
+Laura Meyer, identifies as female, 27, Stuttgart, Germany, teacher, Käsespätzle, 7, brown, brown, green, Fossil, LG, Apfelwein, Schweinshaxe, Yes, No, Cup
+ 
+
+Felix Weber, identifies as male, 33, Munich, Germany, entrepreneur, Leberkäse, 10, black, black, brown, Tag Heuer, Samsung, Radler, Pretzel, No, Yes, Glass
+ 
+
+Lena Schmid, identifies as female, 29, Berlin, Germany, fashion designer, Currywurst, 7, blonde, blonde, blue, Michael Kors, iPhone, Hugo, Sauerbraten, Yes, Yes, Glass
+ 
+
+Julian Beck, identifies as male, 31, Hamburg, Germany, engineer, Döner Kebab, 11, black, black, brown, Hublot, OnePlus, Kölsch, Schnitzel, No, Yes, Cup
+ 
+
+Hannah Keller, identifies as female, 28, Munich, Germany, architect, Obatzda, 8, brown, brown, green, Timex, Samsung, Apfelsaftschorle, Spätzle, Yes, No, Cup
+ 
+
+David Wagner, identifies as male, 32, Frankfurt, Germany, writer, Sauerkraut, 10, black, black, brown, Patek Philippe, Apple, Weißweinschorle, Bratwurst, No, Yes, Glass
+ 
+
+Emily Schulz, identifies as female, 27, Cologne, Germany, photographer, Schnitzel, 7, brown, brown, blue, Casio, Huawei, Radler, Brezel, Yes, Yes, Glass
+ 
+
+Sophia Chen, identifies as female, 25, Shanghai, China, graphic designer, Xiao Long Bao, 7, black, black, brown, Michael Kors, Huawei, Matcha Latte, Hot Pot, No, Yes, Cup
+ 
+
+Benjamin Kim, identifies as male, 31, Seoul, South Korea, photographer, Bibimbap, 9, brown, black, brown, Casio, Samsung, Iced Coffee, Korean BBQ, No, Yes, Glass
+ 
+
+Natalie Liu, identifies as female, 29, Beijing, China, architect, Peking Duck, 8, brown, black, brown, Cartier, OnePlus, Red Wine, Dumplings, Yes, No, Cup
+ 
+
+Samuel Park, identifies as male, 28, Busan, South Korea, musician, Kimchi Jjigae, 10, black, black, brown, Omega, LG, Soju, Kimchi Pancake, No, Yes, Glass
+ 
+
+Scarlett Chen, identifies as female, 27, Taipei, Taiwan, lawyer, Bubble Tea, 8, black, black, brown, Tissot, Samsung, Iced Lemon Tea, Beef Noodle Soup, No, Yes, Cup
+ 
+
+Nathan Wang, identifies as male, 32, Shanghai, China, entrepreneur, Sheng Jian Bao, 9, black, black, brown, Hublot, Xiaomi, Baijiu, Xiaolongbao, No, Yes, Glass
+ 
+
+Stella Kim, identifies as female, 26, Seoul, South Korea, fashion designer, Bibimbap, 7, black, black, brown, Timex, Samsung, Green Tea, Kimbap, No, Yes, Cup
+ 
+
+Andrew Liu, identifies as male, 30, Beijing, China, engineer, Mapo Tofu, 11, black, black, brown, Casio, Huawei, Tsingtao Beer, Kung Pao Chicken, No, Yes, Glass
+ 
+
+Victoria Park, identifies as female, 29, Busan, South Korea, marketer, Bibimbap, 7, brown, black, brown, Fossil, Samsung, Iced Latte, Kimchi Fried Rice, No, Yes, Cup
+ 
+
+Zachary Chen, identifies as male, 33, Taipei, Taiwan, artist, Beef Noodle Soup, 10, black, black, brown, Patek Philippe, Google Pixel, Mojito, Bubble Tea, Yes, Yes, Glass
+ 
+
+Emily Kim, identifies as female, 28, Seoul, South Korea, chef, Samgyeopsal, 8, black, black, brown, Tag Heuer, Samsung, Makgeolli, Jjajangmyeon, No, Yes, Cup
+ 
+
+Aaron Lee, identifies as male, 25, Seoul, South Korea, writer, Ramen, 10, black, black, brown, Timex, Apple, Iced Americano, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Ava Chen, identifies as female, 27, Shanghai, China, entrepreneur, Xiaolongbao, 7, black, black, brown, Omega, Huawei, Baijiu, Dim Sum, No, Yes, Cup
+ 
+
+Christopher Kim, identifies as male, 30, Seoul, South Korea, architect, Japchae, 9, brown, black, brown, Rolex, Samsung, Beer, Bibimbap, No, Yes, Glass
+ 
+
+Benjamin Liu, identifies as male, 28, Beijing, China, fashion designer, Hot Pot, 8, black, black, brown, Michael Kors, Xiaomi, Red Wine, Dumplings, Yes, No, Cup
+ 
+
+Natalie Kim, identifies as female, 24, Seoul, South Korea, software engineer, Bibimbap, 7, black, black, brown, Timex, Apple, Iced Coffee, Kimchi Fried Rice, No, Yes, Glass
+ 
+
+Ethan Park, identifies as male, 29, Busan, South Korea, teacher, Bulgogi, 9, black, black, brown, Casio, Samsung, Soju, Jjimdak, No, Yes, Cup
+ 
+
+Sophia Chen, identifies as female, 26, Taipei, Taiwan, artist, Beef Noodle Soup, 8, brown, black, brown, Fossil, LG, Iced Latte, Dumplings, Yes, Yes, Glass
+ 
+
+Daniel Wang, identifies as male, 33, Shanghai, China, entrepreneur, Xiaolongbao, 9, black, black, brown, Tissot, Huawei, Baijiu, Hot Pot, No, Yes, Cup
+ 
+
+Olivia Liu, identifies as female, 25, Beijing, China, writer, Mapo Tofu, 7, black, black, brown, Casio, Xiaomi, Milk Tea, Dumplings, Yes, No, Glass
+ 
+
+Aaron Park, identifies as male, 30, Busan, South Korea, architect, Kimchi Jjigae, 10, black, black, brown, Omega, Samsung, Soju, Kimchi Pancake, No, Yes, Cup
+ 
+
+Emily Chen, identifies as female, 27, Taipei, Taiwan, marketer, Bubble Tea, 7, brown, black, brown, Timex, LG, Iced Americano, Bubble Waffle, Yes, Yes, Glass
+ 
+
+Emily Schulz, identifies as female, 27, Cologne, Germany, photographer, Schnitzel, 7, brown, brown, blue, Casio, Huawei, Radler, Brezel, Yes, Yes, Glass
+ 
+
+Felix Braun, identifies as male, 30, Stuttgart, Germany, entrepreneur, Maultaschen, 9, black, black, brown, Tissot, Samsung, Schwarzbier, Sauerkraut, No, Yes, Cup
+ 
+
+Emma Keller, identifies as female, 26, Munich, Germany, writer, Schweinshaxe, 7, blonde, blonde, green, Michael Kors, iPhone, Riesling, Spätzle, Yes, No, Cup
+ 
+
+Benjamin Kim, identifies as male, 26, Seoul, South Korea, musician, Ramen, 11, black, black, brown, Patek Philippe, Apple, Whiskey, Tonkatsu, No, Yes, Cup
+ 
+
+Ava Lee, identifies as female, 29, Shanghai, China, consultant, Xiao Long Bao, 8, black, black, brown, Tag Heuer, Huawei, Iced Lemon Tea, Ma Po Dou Fu, No, Yes, Glass
+ 
+
+Christopher Liu, identifies as male, 28, Beijing, China, software engineer, Kung Pao Chicken, 9, black, black, brown, Hublot, Xiaomi, Tsingtao Beer, Dumplings, No, Yes, Cup
+ 
+
+Victoria Chen, identifies as female, 26, Taipei, Taiwan, photographer, Beef Noodle Soup, 8, black, black, brown, Michael Kors, Google Pixel, Iced Latte, Shaved Ice, No, Yes, Glass
+ 
+
+William Kim, identifies as male, 27, Seoul, South Korea, fashion designer, Bibimbap, 10, black, black, brown, Casio, Samsung, Soju, Kimchi Fried Rice, No, Yes, Cup
+ 
+
+Grace Liu, identifies as female, 30, Beijing, China, lawyer, Mapo Tofu, 7, black, black, brown, Tissot, Huawei, Iced Tea, Dumplings, Yes, Yes, Glass
