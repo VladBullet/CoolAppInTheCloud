@@ -16,13 +16,8 @@ namespace CoolAppInTheCloud.Services
 
     public class PeopleService : IPeopleService
     {
-        private readonly CoolAppInTheCloudDbContext _dbContext;
+        //private readonly CoolAppInTheCloudDbContext _dbContext;
         private readonly MockDatabase _db = MockDatabase.Instance;
-
-        public PeopleService(CoolAppInTheCloudDbContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
 
         public List<Person> GetAllPeople()
         {

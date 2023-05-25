@@ -17,13 +17,8 @@ namespace CoolAppInTheCloud.Services
 
     public class UserService : IUserService
     {
-        private readonly CoolAppInTheCloudDbContext _dbContext;
+        //private readonly CoolAppInTheCloudDbContext _dbContext;
         private readonly MockDatabase _db = MockDatabase.Instance;
-
-        public UserService(CoolAppInTheCloudDbContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
 
         public User GetUserById(int id)
         {
@@ -37,7 +32,7 @@ namespace CoolAppInTheCloud.Services
 
         public IEnumerable<User> GetAllUsers()
         {
-            return _dbContext.Users;
+            return _db.Users;
         }
 
         public bool CreateUser(User user)

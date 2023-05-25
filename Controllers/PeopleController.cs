@@ -67,7 +67,7 @@ namespace CoolAppInTheCloud.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         [Authorize(Policy = AuthorizationPolicies.Admin)]
         public async Task<IActionResult> UpdatePerson([FromBody] Person person)
         {

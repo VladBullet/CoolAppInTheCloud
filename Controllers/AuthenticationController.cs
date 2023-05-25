@@ -15,10 +15,9 @@ namespace CoolAppInTheCloud.Controllers
     public class AuthenticationController : ControllerBase
     {
         private IConfiguration _config;
-        private CoolAppInTheCloudDbContext _db;
-        public AuthenticationController(CoolAppInTheCloudDbContext context, IConfiguration config)
+        private MockDatabase _db = MockDatabase.Instance;
+        public AuthenticationController(IConfiguration config)
         {
-            _db = context;
             _config = config;
         }
 

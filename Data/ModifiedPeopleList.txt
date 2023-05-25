@@ -1,0 +1,110 @@
+Name,identifies as,age,city,country,occupation,favorite food,shoe size,hair color,hair color (real),eye color,watch brand,cell phone brand,favorite drink,favorite food,have they ever been in Kristiansand,do they like baguettes,coffee from glass or cup
+Chloe Miller,female,26,Sydney,Australia,graphic designer,Sushi,8,brown,brown,brown,Michael Kors,Samsung,Margarita,Tacos,No,Yes,Cup
+Dylan Price,male,34,San Francisco,USA,photographer,Pizza,11,blonde,blonde,blue,Rolex,Apple,Gin and Tonic,Pasta,Yes,No,Glass
+Maya Patel,female,22,Mumbai,India,software engineer,Indian Curry,7,black,black,brown,Swatch,OnePlus,Chai,Biryani,No,Yes,Cup
+Max Collins,male,29,London,UK,musician,Fish and Chips,10,red,blonde,green,Casio,Nokia,Beer,Roast Beef,Yes,Yes,Glass
+Lily Park,female,31,Seoul,South Korea,teacher,Kimchi,6,brown,black,brown,Fossil,LG,Soju,Bibimbap,No,Yes,Cup
+Adam Jones,male,25,Toronto,Canada,artist,Poutine,9,black,black,hazel,Timex,Google Pixel,Whiskey,Burgers,No,Yes,Glass
+Sofia Rodriguez,female,28,Madrid,Spain,fashion designer,Paella,7,brown,brown,green,Cartier,Samsung,Red Wine,Tapas,Yes,No,Cup
+Noah Lee,male,27,Hong Kong,China,banker,Dim Sum,11,black,black,brown,Omega,Apple,Scotch,Noodles,Yes,Yes,Glass
+Ava Taylor,female,23,Los Angeles,USA,actress,Kale Salad,8,blonde,blonde,blue,Tag Heuer,iPhone,Champagne,Sushi,No,Yes,Cup
+Jack Chen,male,30,Taipei,Taiwan,entrepreneur,Bubble Tea,9,black,black,brown,Hublot,Samsung,Mojito,Hotpot,No,Yes,Glass
+Emily Kim,female,24,Seoul,South Korea,graphic designer,Bibimbap,7,black,black,brown,Timex,Samsung,Iced Coffee,Ramen,No,Yes,Glass
+Ethan Baker,male,31,Los Angeles,USA,writer,Burgers,11,brown,brown,blue,Rolex,iPhone,Mojito,Tacos,Yes,No,Cup
+Isabella Chen,female,28,Shanghai,China,architect,Hot Pot,7,black,black,brown,Cartier,Huawei,Red Wine,Dumplings,Yes,Yes,Glass
+Gabriel Flores,male,27,Sao Paulo,Brazil,musician,Feijoada,9,black,black,brown,Casio,Xiaomi,Caipirinha,Churrasco,No,Yes,Cup
+Ava Ramirez,female,26,Mexico City,Mexico,journalist,Tacos,8,brown,brown,green,Swatch,Samsung,Margarita,Quesadillas,No,Yes,Glass
+Ryan Wong,male,29,Singapore,Singapore,entrepreneur,Laksa,10,black,black,brown,Omega,Google Pixel,Iced Tea,Chicken Rice,No,Yes,Cup
+Olivia Davis,female,30,Sydney,Australia,photographer,Sushi,8,blonde,blonde,blue,Tag Heuer,Apple,Rosé,Salmon,Yes,No,Glass
+Ethan Kim,male,25,Seoul,South Korea,software engineer,Korean Fried Chicken,11,black,black,brown,Timex,Samsung,Iced Americano,Kimchi Stew,No,Yes,Cup
+Zoe Park,female,27,Busan,South Korea,marketer,Bulgogi,7,brown,black,brown,Casio,LG,Soju,Kimchi Fried Rice,No,Yes,Glass
+David Chen,male,32,Taipei,Taiwan,architect,Beef Noodle Soup,9,black,black,brown,Omega,Apple,Whiskey Sour,Dumplings,No,Yes,Cup
+Julia Patel,female,23,Mumbai,India,fashion designer,Butter Chicken,7,black,black,brown,Fossil,OnePlus,Lassi,Naan,No,Yes,Glass
+James Lee,male,30,Seoul,South Korea,artist,Japchae,10,brown,black,brown,Timex,Samsung,Beer,Bibimbap,No,Yes,Cup
+Emma Tan,female,28,Beijing,China,consultant,Peking Duck,8,brown,black,brown,Cartier,Huawei,Iced Lemon Tea,Hot Pot,Yes,No,Glass
+Alexander Wang,male,29,Shanghai,China,banker,Xiaolongbao,9,black,black,brown,Hublot,Xiaomi,Baijiu,Fried Rice,No,Yes,Cup
+Sophia Kim,female,25,Seoul,South Korea,fashion designer,Bibimbap,7,black,black,brown,Timex,Samsung,Green Tea,Kimchi Fried Rice,No,Yes,Glass
+Noah Chen,male,33,Hong Kong,China,entrepreneur,Dim Sum,11,black,black,brown,Patek Philippe,iPhone,Long Island Iced Tea,BBQ Pork Buns,Yes,Yes,Glass
+Isabelle Wong,female,27,Singapore,Singapore,writer,Laksa,8,brown,black,brown,Swatch,Google Pixel,Iced Latte,Chicken Rice,No,Yes,Cup
+Dylan Kim,other,26,Seoul,South Korea,filmmaker,Ramen,10,black,black,brown,Casio,LG,Soju,Japchae,No,Yes,Glass
+Olivia Lee,female,31,Taipei,Taiwan,lawyer,Braised Pork Rice,8,black,black,brown,Tissot,Samsung,Mojito,Dumplings,Yes,Yes,Cup
+Ethan Chen,male,28,Shanghai,China,software engineer,Xiaolongbao,9,black,black,brown,Tag Heuer,Huawei,Iced Tea,Fried Rice,No,Yes,Cup
+Grace Park,female,25,Seoul,South Korea,marketer,Korean Fried Chicken,7,brown,black,brown,Casio,Samsung,Soju,Kimchi Stew,No,Yes,Cup
+Michael Chen,male,29,Taipei,Taiwan,artist,Beef Noodle Soup,10,black,black,brown,Omega,Apple,Whiskey,Dumplings,Yes,Yes,Glass
+Samantha Kim,female,27,Los Angeles,USA,actress,Avocado Toast,8,blonde,blonde,blue,Rolex,iPhone,Rosé,Tacos,No,Yes,Cup
+William Wong,male,30,Singapore,Singapore,banker,Char Kway Teow,11,black,black,brown,Hublot,Xiaomi,Scotch,Laksa,No,Yes,Glass
+Sarah Lee,female,28,Seoul,South Korea,fashion designer,Bibimbap,7,black,black,brown,Timex,Samsung,Iced Americano,Kimchi Fried Rice,No,Yes,Cup
+Alexander Kim,male,32,Seoul,South Korea,consultant,Korean Fried Chicken,10,brown,black,brown,Patek Philippe,LG,Soju,Tteokbokki,No,Yes,Glass
+Chloe Lee,female,29,Busan,South Korea,marketer,Bulgogi,7,brown,black,brown,Casio,LG,Soju,Kimchi Fried Rice,No,Yes,Glass
+Ethan Kim,male,26,Seoul,South Korea,chef,Samgyeopsal,10,black,black,brown,Tissot,Samsung,Beer,Jjajangmyeon,No,Yes,Cup
+Ava Kim,female,23,Seoul,South Korea,student,Tteokbokki,7,black,black,brown,Fossil,LG,Iced Americano,Kimchi Fried Rice,No,Yes,Glass
+Dylan Lee,male,27,Seoul,South Korea,entrepreneur,Japchae,11,black,black,brown,Rolex,iPhone,Whiskey,Fried Chicken,No,Yes,Glass
+Maria Santos,female ,29,Barcelona,Spain,architect,Paella,8,brown,brown,brown,Tag Heuer,Samsung,Sangria,Tacos,No,Yes,Glass
+Alessandro Rossi,male ,32,Rome,Italy,musician,Pasta Carbonara,10,black,black,brown,Rolex,iPhone,Limoncello,Pizza,No,Yes,Cup
+Emily Nguyen,female ,27,Hanoi,Vietnam,engineer,Pho,7,black,black,brown,Casio,Samsung,Iced Coffee,Banh Mi,No,Yes,Glass
+Lucas Li,male ,30,Shanghai,China,entrepreneur,Xiaolongbao,9,black,black,brown,Omega,Apple,Bubble Tea,Dumplings,No,Yes,Cup
+Sofia Müller,female ,28,Berlin,Germany,fashion designer,Currywurst,8,blonde,blonde,blue,Michael Kors,iPhone,Aperol Spritz,Ramen,Yes,No,Glass
+Diego Silva,male ,31,Rio de Janeiro,Brazil,photographer,Feijoada,11,black,black,brown,Swatch,Samsung,Caipirinha,Coxinha,Yes,Yes,Cup
+Olivia Kim,female ,25,Seoul,South Korea,marketer,Kimchi,7,black,black,brown,Fossil,Samsung,Soju,Bibimbap,Yes,Yes,Glass
+Hugo Gonzalez,male ,27,Madrid,Spain,writer,Tortilla Española,9,brown,brown,brown,Casio,Huawei,Sangria,Paella,Yes,Yes,Cup
+Isabella Wang,female ,29,Vancouver,Canada,artist,Poutine,8,black,black,brown,Timex,iPhone,Maple Syrup,Sushi,No,Yes,Glass
+Luca Petrov,male ,30,Moscow,Russia,engineer,Borscht,10,black,black,brown,Patek Philippe,Samsung,Vodka,Pelmeni,Yes,No,Cup
+Maya Johnson,female ,26,New York City,USA,entrepreneur,Hamburger,8,brown,brown,green,Tag Heuer,Apple,Cocktail,Pizza,Yes,No,Glass
+Emma Müller,female ,27,Berlin,Germany,consultant,Döner Kebab,7,brown,brown,brown,Fossil,Google Pixel,Beer,Spaghetti,Yes,Yes,Glass
+Oliver Li,male ,31,Shanghai,China,software engineer,Xiaolongbao,10,black,black,brown,Omega,Apple,Scotch,Fried Rice,No,Yes,Cup
+Sophia Weber,female ,29,Vienna,Austria,teacher,Schnitzel,8,brown,brown,brown,Michael Kors,Samsung,Red Wine,Goulash,Yes,Yes,Glass
+Maxim Ivanov,male ,32,Moscow,Russia,entrepreneur,Blini,11,black,black,brown,Patek Philippe,Apple,Vodka,Beef Stroganoff,Yes,Yes,Glass
+Emma Lefebvre,female ,30,Paris,France,artist,Escargots,8,brown,brown,brown,Tag Heuer,iPhone,Champagne,Croissant,Yes,Yes,Cup
+Alexandre Dupont,male ,33,Paris,France,architect,Croissant,11,brown,brown,brown,Rolex,iPhone,Red Wine,Steak Frites,Yes,Yes,Glass
+Mia Rossi,female ,28,Rome,Italy,graphic designer,Pizza Margherita,7,black,black,brown,Michael Kors,Samsung,Aperol Spritz,Tiramisu,Yes,Yes,Glass
+Sophia Weber,female ,29,Vienna,Austria,teacher,Schnitzel,8,brown,brown,brown,Michael Kors,Samsung,Red Wine,Goulash,Yes,Yes,Glass
+Ethan Müller,male ,28,Berlin,Germany,engineer,Currywurst,9,black,black,brown,Timex,Samsung,Beer,Sauerkraut,Yes,No,Cup
+Sophie Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass
+Lukas Fischer,male ,29,Vienna,Austria,writer,Goulash,10,black,black,brown,Tissot,Huawei,Red Wine,Schnitzel,Yes,Yes,Cup
+Emma Richter,female ,26,Berlin,Germany,software engineer,Berliner,7,brown,brown,brown,Fossil,Google Pixel,Beer,Currywurst,Yes,Yes,Glass
+Liam Meier,male ,31,Zurich,Switzerland,banker,Fondue,9,black,black,brown,Tag Heuer,Samsung,Wine,Raclette,Yes,Yes,Cup
+Laura Huber,female ,27,Zurich,Switzerland,teacher,Rösti,8,brown,brown,brown,Michael Kors,Huawei,Tea,Chocolate,Yes,No,Glass
+David Schneider,male ,30,Zurich,Switzerland,entrepreneur,Zürcher Geschnetzeltes,10,black,black,brown,Hublot,Apple,Wine,Chocolate,Yes,Yes,Cup
+Sophia Meier,female ,28,Zurich,Switzerland,architect,Chäsbängel,8,brown,brown,brown,Casio,Huawei,Coffee,Chocolate,Yes,Yes,Glass
+Nico Hofmann,male ,29,Berlin,Germany,artist,Döner Kebab,9,black,black,brown,Rolex,Samsung,Beer,Pizza,Yes,Yes,Cup
+Leonie Schmitt,female ,26,Berlin,Germany,graphic designer,Brezel,7,brown,brown,brown,Fossil,LG,Tea,Pretzel,Yes,Yes,Glass
+Tom Müller,male ,28,Vienna,Austria,consultant,Schnitzel,8,black,black,brown,Casio,Huawei,Beer,Sauerkraut,Yes,No,Cup
+Sophia Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass
+Hannes Weber,male ,29,Vienna,Austria,writer,Goulash,10,black,black,brown,Tissot,Huawei,Red Wine,Schnitzel,Yes,Yes,Cup
+Emma Richter,female ,26,Berlin,Germany,software engineer,Berliner,7,brown,brown,brown,Fossil,Google Pixel,Beer,Currywurst,Yes,Yes,Glass
+Liam Meier,male ,31,Zurich,Switzerland,banker,Fondue,9,black,black,brown,Tag Heuer,Samsung,Wine,Raclette,Yes,Yes,Cup
+Laura Huber,female ,27,Zurich,Switzerland,teacher,Rösti,8,brown,brown,brown,Michael Kors,Huawei,Tea,Chocolate,Yes,No,Glass
+Tomas Davidov, male,30,Zurich,Switzerland,entrepreneur,Zürcher Geschnetzeltes,10,black,black,brown,Hublot,Apple,Wine,Chocolate,Yes,Yes,Cup
+Sophia Meier,female ,28,Zurich,Switzerland,architect,Chäsbängel,8,brown,brown,brown,Casio,Huawei,Coffee,Chocolate,Yes,Yes,Glass
+Nico Hofmann,male ,29,Berlin,Germany,artist,Döner Kebab,9,black,black,brown,Rolex,Samsung,Beer,Pizza,Yes,Yes,Cup
+Leonie Schmitt,female ,26,Berlin,Germany,graphic designer,Brezel,7,brown,brown,brown,Fossil,LG,Tea,Pretzel,Yes,Yes,Glass
+Tom Müller,male ,28,Vienna,Austria,consultant,Schnitzel,8,black,black,brown,Casio,Huawei,Beer,Sauerkraut,Yes,No,Cup
+Sophia Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass
+Hannes Weber,male ,29,Vienna,Austria,writer,Goulash,10,black,black,brown,Tissot,Huawei,Red Wine,Schnitzel,Yes,Yes,Cup
+Emma Richter,female ,26,Berlin,Germany,software engineer,Berliner,7,brown,brown,brown,Fossil,Google Pixel,Beer,Currywurst,Yes,Yes,Glass
+Liam Meier,male ,31,Zurich,Switzerland,banker,Fondue,9,black,black,brown,Tag Heuer,Samsung,Wine,Raclette,Yes,Yes,Cup
+Laura Huber,female ,27,Zurich,Switzerland,teacher,Rösti,8,brown,brown,brown,Michael Kors,Huawei,Tea,Chocolate,Yes,No,Glass
+David Schneider,male ,30,Zurich,Switzerland,entrepreneur,Zürcher Geschnetzeltes,10,black,black,brown,Hublot,Apple,Wine,Chocolate,Yes,Yes,Cup
+Sophia Meier,female ,28,Zurich,Switzerland,architect,Chäsbängel,8,brown,brown,brown,Casio,Huawei,Coffee,Chocolate,Yes,Yes,Glass
+Nico Hofmann,male ,29,Berlin,Germany,artist,Döner Kebab,9,black,black,brown,Rolex,Samsung,Beer,Pizza,Yes,Yes,Cup
+Leonie Schmitt,female ,26,Berlin,Germany,graphic designer,Brezel,7,brown,brown,brown,Fossil,LG,Tea,Pretzel,Yes,Yes,Glass
+Tom Müller,male ,28,Vienna,Austria,consultant,Schnitzel,8,black,black,brown,Casio,Huawei,Beer,Sauerkraut,Yes,No,Cup
+Sophia Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass
+Emma Richter,female ,26,Berlin,Germany,software engineer,Berliner,7,brown,brown,brown,Fossil,Google Pixel,Beer,Currywurst,Yes,Yes,Glass
+Liam Meier,male ,31,Zurich,Switzerland,banker,Fondue,9,black,black,brown,Tag Heuer,Samsung,Wine,Raclette,Yes,Yes,Cup
+Laura Huber,female ,27,Zurich,Switzerland,teacher,Rösti,8,brown,brown,brown,Michael Kors,Huawei,Tea,Chocolate,Yes,No,Glass
+David Schneider,male ,30,Zurich,Switzerland,entrepreneur,Zürcher Geschnetzeltes,10,black,black,brown,Hublot,Apple,Wine,Chocolate,Yes,Yes,Cup
+Sophia Meier,female ,28,Zurich,Switzerland,architect,Chäsbängel,8,brown,brown,brown,Casio,Huawei,Coffee,Chocolate,Yes,Yes,Glass
+Nico Hofmann,male ,29,Berlin,Germany,artist,Döner Kebab,9,black,black,brown,Rolex,Samsung,Beer,Pizza,Yes,Yes,Cup
+Leonie Schmitt,female ,26,Berlin,Germany,graphic designer,Brezel,7,brown,brown,brown,Fossil,LG,Tea,Pretzel,Yes,Yes,Glass
+Tom Müller,male ,28,Vienna,Austria,consultant,Schnitzel,8,black,black,brown,Casio,Huawei,Beer,Sauerkraut,Yes,No,Cup
+Sophia Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass
+Hannes Weber,male ,29,Vienna,Austria,writer,Goulash,10,black,black,brown,Tissot,Huawei,Red Wine,Schnitzel,Yes,Yes,Cup
+Emma Richter,female ,26,Berlin,Germany,software engineer,Berliner,7,brown,brown,brown,Fossil,Google Pixel,Beer,Currywurst,Yes,Yes,Glass
+Liam Meier,male ,31,Zurich,Switzerland,banker,Fondue,9,black,black,brown,Tag Heuer,Samsung,Wine,Raclette,Yes,Yes,Cup
+Laura Huber,female ,27,Zurich,Switzerland,teacher,Rösti,8,brown,brown,brown,Michael Kors,Huawei,Tea,Chocolate,Yes,No,Glass
+David Schneider,male ,30,Zurich,Switzerland,entrepreneur,Zürcher Geschnetzeltes,10,black,black,brown,Hublot,Apple,Wine,Chocolate,Yes,Yes,Cup
+Sophia Meier,female ,28,Zurich,Switzerland,architect,Chäsbängel,8,brown,brown,brown,Casio,Huawei,Coffee,Chocolate,Yes,Yes,Glass
+Nico Hofmann,male ,29,Berlin,Germany,artist,Döner Kebab,9,black,black,brown,Rolex,Samsung,Beer,Pizza,Yes,Yes,Cup
+Tom Müller,male ,28,Vienna,Austria,consultant,Schnitzel,8,black,black,brown,Casio,Huawei,Beer,Sauerkraut,Yes,No,Cup
+Sophia Klein,female ,25,Vienna,Austria,photographer,Sachertorte,7,blonde,blonde,blue,Rolex,Apple,Coffee,Strudel,Yes,Yes,Glass

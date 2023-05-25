@@ -8,7 +8,7 @@
         public string City { get; set; }
         public string Country { get; set; }
         public string Occupation { get; set; }
-        public string FavoriteFood { get; set; }
+        public List<string> FavoriteFoods { get; set; }
         public int ShoeSize { get; set; }
         public string HairColor { get; set; }
         public string RealHairColor { get; set; }
