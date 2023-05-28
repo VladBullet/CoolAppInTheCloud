@@ -1,8 +1,8 @@
 const baseURL = "https://localhost:44382/api/";
 
 // Fetch and display the list of people
-function fetchPeopleList() {
-  fetch(baseURL + "people/getAllPeople", {
+async function fetchPeopleList() {
+  await fetch(baseURL + "people/getAllPeople", {
     headers: {
       Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
     },
@@ -21,17 +21,24 @@ function fetchPeopleList() {
 function renderPerson(person) {
   // Create a new table row
   const row = document.createElement("tr");
+  row.setAttribute("id", person.id);
 
   // Iterate over each property of the person object
-  Object.values(person).forEach((value) => {
+  Object.values(person).forEach((value, i) => {
     // Create a new table cell
-    const cell = document.createElement("td");
-    cell.textContent = Array.isArray(value) ? value.join(", ") : value;
+    if (i == 0) {
+    } else {
+      const cell = document.createElement("td");
+      cell.textContent = Array.isArray(value) ? value.join(", ") : value;
 
-    // Append the cell to the row
-    row.appendChild(cell);
+      // Append the cell to the row
+      row.appendChild(cell);
+    }
   });
-
+  const actionCell = document.createElement("td");
+  actionCell.innerHTML =
+    '<button class="btn btn-danger deletePerson";><i class="fa-solid fa-trash"></i></button>';
+  row.appendChild(actionCell);
   // Append the row to the table body
   const tableBody = document.getElementById("personTableBody");
   tableBody.appendChild(row);
@@ -68,7 +75,7 @@ function filterPersons(searchTerm) {
 
 // Event listener for the search button click
 const searchButton = document.getElementById("searchButton");
-searchButton.addEventListener("click", () => {
+searchButton.addEventListener("click", async () => {
   const searchInput = document.getElementById("search-input");
   const searchTerm = searchInput.value.trim();
 
@@ -76,7 +83,7 @@ searchButton.addEventListener("click", () => {
   searchInput.value = "";
 
   // Filter the person data based on the search term
-  if (searchTerm == "") fetchPeopleList();
+  if (searchTerm == "") await fetchPeopleList();
   else filterPersons(searchTerm);
 });
 
@@ -87,7 +94,29 @@ function clearTable() {
   }
 }
 
-function deletePerson()
-{
-    
+async function deletePerson(id) {
+  fetch(baseURL + "people/deletePerson", {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
+    },
+    body: JSON.stringify(id),
+  })
+    .then(function (response) {
+      if (response.ok) {
+        // Handle the successful response, such as showing a success message or updating the table
+        console.log("Person deleted successfully");
+      } else {
+        // Handle the error response, such as displaying an error message
+        console.log(response);
+        throw new Error("Error deleting person!");
+      }
+    })
+    .then(async (data) => {
+      await fetchPeopleList();
+    })
+    .catch(function (error) {
+      console.error("Error deleting person!", error);
+    });
 }

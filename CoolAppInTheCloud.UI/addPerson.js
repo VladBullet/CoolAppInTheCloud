@@ -22,6 +22,7 @@ $("#addPersonForm").submit(function (event) {
 
   // Create a new person object
   var person = {
+    Id: "",
     Name: name,
     IdentifiesAs: identifiesAs,
     Age: age,
@@ -55,7 +56,7 @@ $("#addPersonForm").submit(function (event) {
         // Handle the successful response, such as showing a success message or updating the table
         console.log("Person added successfully");
         fetchPeopleList(); // Refresh the table to display the updated data
-        document.getElementById("addPersonModal").modal("hide"); // Hide the modal after successful submission
+        $("#addPersonModal").modal("hide"); // Hide the modal after successful submission
       } else {
         // Handle the error response, such as displaying an error message
         console.log(response);

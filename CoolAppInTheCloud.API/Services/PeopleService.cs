@@ -85,13 +85,8 @@ namespace CoolAppInTheCloud.Services
         {
             try
             {
-                var oldPeopleCount = _db.People.Count;
-                _db.People = _db.People.Where(x => x.Id != id).ToList();
-                if (_db.People.Count != oldPeopleCount)
-                {
-                    return true;
-                }
-                return false;
+                var person = _db.People.FirstOrDefault(x => x.Id == id);
+                return _db.People.Remove(person);
             }
             catch (Exception)
             {

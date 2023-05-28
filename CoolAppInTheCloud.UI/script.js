@@ -42,6 +42,25 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+$(document).on("click", ".deletePerson", function (e) {
+  const target = e.target.closest(".deletePerson"); // Or any other selector.
+  console.log(target, "target");
+  if (target) {
+    var tr = $(this).closest("tr");
+    var id = $(tr).attr("id");
+    console.log(id);
+    deletePerson(id);
+    var value = $("#tableRefresh").val();
+    $("#tableRefresh").val(value + 1);
+    $("#tableRefresh").trigger("change");
+  }
+});
+
+$(document).on("change", "#tableRefresh", function (e) {
+  console.log("changes", $(this).val());
+  fetchPeopleList();
+});
+
 function login(username, password, loginForm, contentArea) {
   fetch("https://localhost:44382/security/createToken", {
     method: "POST",
@@ -70,5 +89,3 @@ function login(username, password, loginForm, contentArea) {
       console.error("Error:", error);
     });
 }
-
-

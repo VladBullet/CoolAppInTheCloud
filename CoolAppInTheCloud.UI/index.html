@@ -4,6 +4,13 @@
     <title>JWT Website</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
@@ -15,6 +22,9 @@
       </div>
     </header>
     <main class="container mt-4">
+      <div class="hiddenInputs">
+        <input type="hidden" name="tableRefresh" id="tableRefresh" value="0" />
+      </div>
       <div class="container col-md-6">
         <div id="login-form" class="text-center">
           <h2>Login</h2>
@@ -40,20 +50,20 @@
         </div>
       </div>
       <div class="container-fluid">
-        <button
-          id="add-person-btn"
-          class="btn btn-success mt-3 float-left"
-          data-toggle="modal"
-          data-target="#addPersonModal"
-        >
-          Add Person
-        </button>
-        <br />
-        <button id="logout-btn" class="btn btn-danger float-right">
-          Logout
-        </button>
-        <br />
-        <div id="content" style="display: none">
+        <div id="content" class="container-fluid" style="display: none">
+          <button
+            id="add-person-btn"
+            class="btn btn-success mt-3 float-left"
+            data-toggle="modal"
+            data-target="#addPersonModal"
+          >
+            Add Person
+          </button>
+          <br />
+          <button id="logout-btn" class="btn btn-danger float-right">
+            Logout
+          </button>
+          <br />
           <div id="search-bar" class="mb-4 row flex-row justify-content-center">
             <div class="flex-column col-md-6">
               <input
@@ -88,6 +98,7 @@
                 <th>Been in Kristiansand</th>
                 <th>Like Baguettes</th>
                 <th>Coffee Container</th>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody id="personTableBody"></tbody>
