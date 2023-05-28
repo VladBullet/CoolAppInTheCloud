@@ -40,7 +40,12 @@
         </div>
       </div>
       <div class="container-fluid">
-        <button id="add-person-btn" class="btn btn-primary mt-3 float-left">
+        <button
+          id="add-person-btn"
+          class="btn btn-success mt-3 float-left"
+          data-toggle="modal"
+          data-target="#addPersonModal"
+        >
           Add Person
         </button>
         <br />
@@ -49,13 +54,18 @@
         </button>
         <br />
         <div id="content" style="display: none">
-          <div id="search-bar" class="mb-4">
-            <input
-              type="text"
-              id="search-input"
-              class="form-control"
-              placeholder="Search"
-            />
+          <div id="search-bar" class="mb-4 row flex-row justify-content-center">
+            <div class="flex-column col-md-6">
+              <input
+                type="text"
+                id="search-input"
+                class="form-control"
+                placeholder="Search"
+              />
+            </div>
+            <div class="flex-column col-md-2">
+              <button class="btn btn-primary" id="searchButton">Search</button>
+            </div>
           </div>
           <h2>People List</h2>
           <table id="personTable" class="table table-responsive">
@@ -82,6 +92,170 @@
             </thead>
             <tbody id="personTableBody"></tbody>
           </table>
+        </div>
+      </div>
+      <!-- Add Person Modal -->
+      <div
+        class="modal fade"
+        id="addPersonModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="addPersonModalLabel"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="addPersonModalLabel">Add Person</h4>
+            </div>
+            <div class="modal-body">
+              <form id="addPersonForm">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="identifiesAs">Identifies As:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="identifiesAs"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="age">Age:</label>
+                  <input type="number" class="form-control" id="age" required />
+                </div>
+                <div class="form-group">
+                  <label for="city">City:</label>
+                  <input type="text" class="form-control" id="city" required />
+                </div>
+                <div class="form-group">
+                  <label for="country">Country:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="country"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="occupation">Occupation:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="occupation"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="favoriteFoods"
+                    >Favorite Foods (comma-separated):</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="favoriteFoods"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="shoeSize">Shoe Size:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="shoeSize"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="hairColor">Hair Color:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="hairColor"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="realHairColor">Real Hair Color:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="realHairColor"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="eyeColor">Eye Color:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="eyeColor"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="watchBrand">Watch Brand:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="watchBrand"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="cellPhoneBrand">Cell Phone Brand:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cellPhoneBrand"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="favoriteDrink">Favorite Drink:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="favoriteDrink"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="beenInKristiansand">Been in Kristiansand:</label>
+                  <input type="checkbox" id="beenInKristiansand" />
+                </div>
+                <div class="form-group">
+                  <label for="likeBaguettes">Like Baguettes:</label>
+                  <input type="checkbox" id="likeBaguettes" />
+                </div>
+                <div class="form-group">
+                  <label for="coffeeContainer">Coffee Container:</label>
+                  <select class="form-control" id="coffeeContainer">
+                    <option value="Mug">Glass</option>
+                    <option value="Cup">Cup</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                form="addPersonForm"
+              >
+                Add Person
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>

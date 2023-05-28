@@ -37,24 +37,6 @@ function renderPerson(person) {
   tableBody.appendChild(row);
 }
 
-// Event listener for search input
-document.getElementById("search-input").addEventListener("input", () => {
-  const searchInput = document
-    .getElementById("search-input")
-    .value.toLowerCase();
-  const peopleList = document.getElementById("people-list");
-  const peopleItems = peopleList.getElementsByTagName("li");
-
-  for (let i = 0; i < peopleItems.length; i++) {
-    const personName = peopleItems[i].textContent.toLowerCase();
-    if (personName.includes(searchInput)) {
-      peopleItems[i].style.display = "block";
-    } else {
-      peopleItems[i].style.display = "none";
-    }
-  }
-});
-
 // Call the fetchPeopleList function when the content is displayed
 document.getElementById("content").style.display = "block";
 fetchPeopleList();
@@ -62,7 +44,12 @@ fetchPeopleList();
 function filterPersons(searchTerm) {
   // Make an API request to retrieve the filtered person data
   fetch(
-    baseURL + `people/searchByFilter?search=${encodeURIComponent(searchTerm)}`
+    baseURL + `people/searchByFilter?filter=${encodeURIComponent(searchTerm)}`,
+    {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
+      },
+    }
   )
     .then((response) => response.json())
     .then((data) => {
@@ -82,12 +69,25 @@ function filterPersons(searchTerm) {
 // Event listener for the search button click
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", () => {
-  const searchInput = document.getElementById("searchInput");
+  const searchInput = document.getElementById("search-input");
   const searchTerm = searchInput.value.trim();
 
   // Clear the search input
   searchInput.value = "";
 
   // Filter the person data based on the search term
-  filterPersons(searchTerm);
+  if (searchTerm == "") fetchPeopleList();
+  else filterPersons(searchTerm);
 });
+
+function clearTable() {
+  const tableBody = document.getElementById("personTableBody");
+  while (tableBody.firstChild) {
+    tableBody.removeChild(tableBody.firstChild);
+  }
+}
+
+function deletePerson()
+{
+    
+}
