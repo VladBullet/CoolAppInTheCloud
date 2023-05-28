@@ -1,5 +1,6 @@
 ﻿using CoolAppInTheCloud.Data;
 using CoolAppInTheCloud.Data.Models;
+using System;
 using System.Xml.Linq;
 
 namespace CoolAppInTheCloud.Services
@@ -10,6 +11,7 @@ namespace CoolAppInTheCloud.Services
         List<Person> GetAllPeople();
         Person GetPersonByName(string name);
         bool AddPerson(Person person);
+        bool DeletePerson(string id);
         bool UpdatePerson(Person person);
         List<Person> Filter(string filter);
     }
@@ -22,12 +24,6 @@ namespace CoolAppInTheCloud.Services
         public List<Person> GetAllPeople()
         {
             return _db.People.ToList();
-        }
-
-        public void AddPerson(Person person)
-        {
-            _db.People.Add(person);
-            //_db.SaveChanges();
         }
 
         public bool UpdatePerson(Person person)
@@ -57,7 +53,16 @@ namespace CoolAppInTheCloud.Services
 
         bool IPeopleService.AddPerson(Person person)
         {
-            throw new NotImplementedException();
+            try
+            {
+                person.Id = Guid.NewGuid().ToString();
+                _db.People.Add(person);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public List<Person> Filter(string filterString)
@@ -74,6 +79,24 @@ namespace CoolAppInTheCloud.Services
                 )
                 .ToList();
 
+        }
+
+        public bool DeletePerson(string id)
+        {
+            try
+            {
+                var oldPeopleCount = _db.People.Count;
+                _db.People = _db.People.Where(x => x.Id != id).ToList();
+                if (_db.People.Count != oldPeopleCount)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 

@@ -8,8 +8,8 @@ namespace CoolAppInTheCloud.Data
         private static MockDatabase instance;
         private static readonly object lockObject = new object();
 
-        public List<Person> People { get; private set; }
-        public List<User> Users { get; private set; }
+        public List<Person> People { get; set; }
+        public List<User> Users { get; set; }
 
         private MockDatabase()
         {

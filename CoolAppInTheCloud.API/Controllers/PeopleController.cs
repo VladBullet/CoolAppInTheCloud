@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CoolAppInTheCloud.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [Authorize]
     public class PeopleController : ControllerBase
     {
@@ -17,7 +17,7 @@ namespace CoolAppInTheCloud.Controllers
             _peopleService = peopleService;
         }
 
-        [HttpGet("getPersonByName/{name}")]
+        [HttpGet()]
         public async Task<IActionResult> GetPersonByName(string name)
         {
             try
@@ -32,7 +32,7 @@ namespace CoolAppInTheCloud.Controllers
             }
         }
 
-        [HttpGet("getAllPeople")]
+        [HttpGet()]
         public async Task<IActionResult> GetAllPeople()
         {
             try
@@ -48,7 +48,6 @@ namespace CoolAppInTheCloud.Controllers
         }
 
         [HttpPost]
-        [Authorize(Policy = AuthorizationPolicies.Admin)]
         public async Task<IActionResult> AddPerson([FromBody] Person person)
         {
             try
@@ -59,6 +58,24 @@ namespace CoolAppInTheCloud.Controllers
                     return Ok(person);
                 }
                 return BadRequest($"Could not add person: {person.Name}.");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return BadRequest(e.Message);
+            }
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeletePerson([FromBody] string id)
+        {
+            try
+            {
+                bool added = _peopleService.DeletePerson(id);
+                if (added)
+                {
+                    return Ok("Person succesfully deleted!");
+                }
+                return BadRequest($"Could not delete person.");
             }
             catch (Exception e)
             {
@@ -87,7 +104,7 @@ namespace CoolAppInTheCloud.Controllers
             }
         }
 
-        [HttpGet("searchByFilter/{filter}")]
+        [HttpGet()]
         public async Task<IActionResult> SearchByFilter(string filter)
         {
             try

@@ -36,6 +36,7 @@ namespace CoolAppInTheCloud.Helpers_Extensions
                         // Create a new Person object and populate its properties
                         Person person = new Person
                         {
+                            Id = Guid.NewGuid().ToString(),
                             Name = values[0],
                             IdentifiesAs = values[1],
                             Age = int.Parse(values[2]),
