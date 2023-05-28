@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #content {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #logout-btn {
+    background-color: #f44336;
+  }
+  
