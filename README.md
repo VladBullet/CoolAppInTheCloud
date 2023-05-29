@@ -17,19 +17,19 @@ These features work for now:
 
 ### Website preview: 
 Login:
-![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/2207f73c-be91-4373-861c-7848b46f504d)
+![loginImage](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/login.JPG?raw=true)
 
 Main content:
-![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/95ed0b56-dd37-41b4-8db0-50bc1edf12d0)
+![contentImage](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/content.JPG?raw=true)
 
 Search: *Quick tip: If you hit search with an empty input, it will return the whole list.*  
-![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/c227f9c9-3994-441a-a6b9-a6cd92d74929)
+![image](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/search.JPG?raw=true)
 
 Add person: 
-![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/f1fb467a-db33-4135-8793-aea130f0bbf4)
+![image](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/addPerson.JPG?raw=true)
 
 Delete person: *(known bug -> if you delete the person, the table doesn't refresh yet, so please refresh the page to see the changes)*
-![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/db70b188-b318-445a-872f-aec32d718d38)
+![image](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/delete.JPG?raw=true)
 
 
 
@@ -92,7 +92,7 @@ Initially i wanted my frontend to be React with Typescript, but i didn't manage 
   
   The API's file structure can be seen bellow: 
   
-  ![image](https://github.com/VladBullet/CoolAppInTheCloud/assets/50328451/01007977-963f-4920-b9d7-d7263ef9098d)
+  ![image](https://github.com/VladBullet/CoolAppInTheCloud/blob/master/GitHub_Resources/fileStructure.JPG?raw=true)
   
 ### Frontend
   When I finished with the backend I tried to quickly spin-up a React project, but beeing that I didn't remember the syntax as fast as I thought, I created another project with the simple approach (HTML, CSS and Javascript). 
