@@ -61,31 +61,4 @@ $(document).on("change", "#tableRefresh", function (e) {
   fetchPeopleList();
 });
 
-function login(username, password, loginForm, contentArea) {
-  fetch("https://localhost:44382/security/createToken", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ username, password }),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      const { token } = data;
 
-      if (token) {
-        // Store the token in localStorage or sessionStorage
-        localStorage.setItem("jwtToken", token);
-
-        // Hide the login form and show the content area
-        loginForm.style.display = "none";
-        contentArea.style.display = "block";
-      } else {
-        // Show an error message or handle authentication failure
-        console.log("Authentication failed");
-      }
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
-}

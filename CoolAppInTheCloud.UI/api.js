@@ -1,4 +1,34 @@
-const baseURL = "https://localhost:44382/api/";
+const rootUrl = "https://localhost:7076/";
+const baseURL = rootUrl + "api/";
+
+function login(username, password, loginForm, contentArea) {
+  fetch(rootUrl + "security/createToken", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ username, password }),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const { token } = data;
+
+      if (token) {
+        // Store the token in localStorage or sessionStorage
+        localStorage.setItem("jwtToken", token);
+
+        // Hide the login form and show the content area
+        loginForm.style.display = "none";
+        contentArea.style.display = "block";
+      } else {
+        // Show an error message or handle authentication failure
+        console.log("Authentication failed");
+      }
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+}
 
 // Fetch and display the list of people
 async function fetchPeopleList() {
