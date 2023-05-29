@@ -5,7 +5,7 @@ HMH interview exercise
 
 **Run the API (dotnet run) and make sure that the rootUrl in *CoolAppInTheCloud.UI/api.js* has the same *port* as the API's instance** 
 
-**Open the index.html page in a browser. Have fun trying to find bugs 😅**
+**Open the *CoolAppInTheCloud.UI/index.html* page in a browser. Have fun trying to find bugs 😅(please don't)**
 
 These features work for now: 
 - Login
